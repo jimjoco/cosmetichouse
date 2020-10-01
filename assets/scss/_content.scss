@@ -3,7 +3,7 @@
   section {
 
     &.paragraph {
-      background-image: url(assets/images/after-banner-bg.png);
+      background-image: url(../images/after-banner-bg.png);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: initial;
@@ -29,7 +29,7 @@
         flex: 1;
 
         &.services {
-          background-image: url(assets/images/services-bg.png);
+          background-image: url(../images/services-bg.png);
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center;
@@ -37,7 +37,7 @@
         }
 
         &.products {
-          background-image: url(assets/images/products-bg.png);
+          background-image: url(../images/products-bg.png);
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center;
@@ -64,7 +64,7 @@
     }
 
     &.about {
-      background-image: url(assets/images/about-bg.png);
+      background-image: url(../images/about-bg.png);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -108,35 +108,35 @@
         margin: 3px;
 
         &:first-of-type {
-          background-image: url(assets/images/insta-1.png);
+          background-image: url(../images/insta-1.png);
           margin-top: 0;
           margin-left: 0;
         }
 
         &:nth-of-type(2) {
-          background-image: url(assets/images/insta-2.png);
+          background-image: url(../images/insta-2.png);
           margin-top: 0;
         }
 
         &:nth-of-type(3) {
-          background-image: url(assets/images/insta-3.png);
+          background-image: url(../images/insta-3.png);
           margin-top: 0;
           margin-right: 0;
         }
 
         &:nth-of-type(4) {
-          background-image: url(assets/images/insta-4.png);
+          background-image: url(../images/insta-4.png);
           margin-bottom: 0;
           margin-left: 0;
         }
 
         &:nth-of-type(5) {
-          background-image: url(assets/images/insta-5.png);
+          background-image: url(../images/insta-5.png);
           margin-bottom: 0;
         }
 
         &:last-of-type {
-          background-image: url(assets/images/insta-6.png);
+          background-image: url(../images/insta-6.png);
           margin-bottom: 0;
           margin-right: 0;
         }

@@ -40,7 +40,7 @@
     }
 
     .banner {
-      background-image: url(assets/images/mobile/banner.png);
+      background-image: url(../images/mobile/banner.png);
 
       article {
         margin-bottom: 303px;
@@ -69,7 +69,7 @@
     section {
 
       &.paragraph {
-        background-image: url(assets/images/mobile/after-banner-bg.png);
+        background-image: url(../images/mobile/after-banner-bg.png);
         background-position: center;
         height: 406px;
 
@@ -87,17 +87,17 @@
         .column {
 
           &.services {
-            background-image: url(assets/images/mobile/services-bg.png);
+            background-image: url(../images/mobile/services-bg.png);
           }
 
           &.products {
-            background-image: url(assets/images/mobile/products-bg.png);
+            background-image: url(../images/mobile/products-bg.png);
           }
         }
       }
 
       &.about {
-        background-image: url(assets/images/mobile/about-bg.png);
+        background-image: url(../images/mobile/about-bg.png);
         height: 548px;
 
         h2 {
@@ -123,27 +123,27 @@
           height: 415px;
 
           &:first-of-type {
-            background-image: url(assets/images/mobile/insta-1.png);
+            background-image: url(../images/mobile/insta-1.png);
           }
 
           &:nth-of-type(2) {
-            background-image: url(assets/images/mobile/insta-2.png);
+            background-image: url(../images/mobile/insta-2.png);
           }
 
           &:nth-of-type(3) {
-            background-image: url(assets/images/mobile/insta-3.png);
+            background-image: url(../images/mobile/insta-3.png);
           }
 
           &:nth-of-type(4) {
-            background-image: url(assets/images/mobile/insta-4.png);
+            background-image: url(../images/mobile/insta-4.png);
           }
 
           &:nth-of-type(5) {
-            background-image: url(assets/images/mobile/insta-5.png);
+            background-image: url(../images/mobile/insta-5.png);
           }
 
           &:last-of-type {
-            background-image: url(assets/images/mobile/insta-6.png);
+            background-image: url(../images/mobile/insta-6.png);
             margin-bottom: 0 !important;
           }
         }
