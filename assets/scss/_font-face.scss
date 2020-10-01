@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Font Awesome 5 Brands';
-  src: url('../fonts/fonts/FontAwesome5Brands-Regular.eot');
-  src: url('../fonts/fonts/FontAwesome5Brands-Regular.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/fonts/FontAwesome5Brands-Regular.woff2') format('woff2'),
-      url('../fonts/fonts/FontAwesome5Brands-Regular.woff') format('woff'),
-      url('../fonts/fonts/FontAwesome5Brands-Regular.ttf') format('truetype'),
-      url('../fonts/fonts/FontAwesome5Brands-Regular.svg#FontAwesome5Brands-Regular') format('svg');
+  src: url('../fonts/FontAwesome5Brands-Regular.eot');
+  src: url('../fonts/FontAwesome5Brands-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/FontAwesome5Brands-Regular.woff2') format('woff2'),
+      url('../fonts/FontAwesome5Brands-Regular.woff') format('woff'),
+      url('../fonts/FontAwesome5Brands-Regular.ttf') format('truetype'),
+      url('../fonts/FontAwesome5Brands-Regular.svg#FontAwesome5Brands-Regular') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -13,13 +13,13 @@
 
 @font-face {
   font-family: "Avenir Book";
-  src: url("../fonts/fonts/Avenir-Book.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/fonts/Avenir-Book.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("../fonts/Avenir-Book.otf") format("opentype"), /* Open Type Font */
-    url("../fonts/fonts/Avenir-Book.svg") format("svg"), /* Legacy iOS */
-    url("../fonts/fonts/Avenir-Book.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("../fonts/fonts/Avenir-Book.woff") format("woff"), /* Modern Browsers */
-    url("../fonts/fonts/Avenir-Book.woff2") format("woff2"); /* Modern Browsers */
+  src: url("../fonts/Avenir-Book.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/Avenir-Book.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../Avenir-Book.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/Avenir-Book.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/Avenir-Book.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/Avenir-Book.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/Avenir-Book.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -27,13 +27,13 @@
 
 @font-face {
   font-family: "Avenir Black";
-  src: url("../fonts/fonts/Avenir-Black.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/fonts/Avenir-Black.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("../fonts/fonts/Avenir-Black.otf") format("opentype"), /* Open Type Font */
-    url("../fonts/fonts/Avenir-Black.svg") format("svg"), /* Legacy iOS */
-    url("../fonts/fonts/Avenir-Black.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("../fonts/fonts/Avenir-Black.woff") format("woff"), /* Modern Browsers */
-    url("../fonts/fonts/Avenir-Black.woff2") format("woff2"); /* Modern Browsers */
+  src: url("../fonts/Avenir-Black.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/Avenir-Black.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/Avenir-Black.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/Avenir-Black.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/Avenir-Black.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/Avenir-Black.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/Avenir-Black.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -41,13 +41,13 @@
 
 @font-face {
   font-family: "Sofia Pro ExtraLight";
-  src: url("../fonts/fonts/SofiaPro-ExtraLight.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/fonts/SofiaPro-ExtraLight.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("../fonts/fonts/SofiaPro-ExtraLight.otf") format("opentype"), /* Open Type Font */
-    url("../fonts/fonts/SofiaPro-ExtraLight.svg") format("svg"), /* Legacy iOS */
-    url("../fonts/fonts/SofiaPro-ExtraLight.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("../fonts/fonts/SofiaPro-ExtraLight.woff") format("woff"), /* Modern Browsers */
-    url("../fonts/fonts/SofiaPro-ExtraLight.woff2") format("woff2"); /* Modern Browsers */
+  src: url("../fonts/SofiaPro-ExtraLight.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/SofiaPro-ExtraLight.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/SofiaPro-ExtraLight.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/SofiaPro-ExtraLight.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/SofiaPro-ExtraLight.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/SofiaPro-ExtraLight.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/SofiaPro-ExtraLight.woff2") format("woff2"); /* Modern Browsers */
   font-weight: 200;
   font-style: normal;
   font-display: swap;
@@ -55,13 +55,13 @@
 
 @font-face {
   font-family: "Sofia Pro Light";
-  src: url("../fonts/fonts/SofiaPro-Light.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/fonts/SofiaPro-Light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("../fonts/fonts/SofiaPro-Light.otf") format("opentype"), /* Open Type Font */
-    url("../fonts/fonts/SofiaPro-Light.svg") format("svg"), /* Legacy iOS */
-    url("../fonts/fonts/SofiaPro-Light.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("../fonts/fonts/SofiaPro-Light.woff") format("woff"), /* Modern Browsers */
-    url("../fonts/fonts/SofiaPro-Light.woff2") format("woff2"); /* Modern Browsers */
+  src: url("../fonts/SofiaPro-Light.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/SofiaPro-Light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/SofiaPro-Light.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/SofiaPro-Light.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/SofiaPro-Light.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/SofiaPro-Light.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/SofiaPro-Light.woff2") format("woff2"); /* Modern Browsers */
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -69,13 +69,13 @@
 
 @font-face {
   font-family: "Sofia Pro";
-  src: url("../fonts/fonts/SofiaPro-Regular.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/fonts/SofiaPro-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("../fonts/fonts/SofiaPro-Regular.otf") format("opentype"), /* Open Type Font */
-    url("../fonts/fonts/SofiaPro-Regular.svg") format("svg"), /* Legacy iOS */
-    url("../fonts/fonts/SofiaPro-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("../fonts/fonts/SofiaPro-Regular.woff") format("woff"), /* Modern Browsers */
-    url("../fonts/fonts/SofiaPro-Regular.woff2") format("woff2"); /* Modern Browsers */
+  src: url("../fonts/SofiaPro-Regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/SofiaPro-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/SofiaPro-Regular.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/SofiaPro-Regular.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/SofiaPro-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/SofiaPro-Regular.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/SofiaPro-Regular.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -83,13 +83,13 @@
 
 @font-face {
   font-family: "Sofia Pro Bold";
-  src: url("../fonts/fonts/SofiaPro-Bold.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/fonts/SofiaPro-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("../fonts/fonts/SofiaPro-Bold.otf") format("opentype"), /* Open Type Font */
-    url("../fonts/fonts/SofiaPro-Bold.svg") format("svg"), /* Legacy iOS */
-    url("../fonts/fonts/SofiaPro-Bold.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("../fonts/fonts/SofiaPro-Bold.woff") format("woff"), /* Modern Browsers */
-    url("../fonts/fonts/SofiaPro-Bold.woff2") format("woff2"); /* Modern Browsers */
+  src: url("../fonts/SofiaPro-Bold.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/SofiaPro-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/SofiaPro-Bold.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/SofiaPro-Bold.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/SofiaPro-Bold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/SofiaPro-Bold.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/SofiaPro-Bold.woff2") format("woff2"); /* Modern Browsers */
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -97,13 +97,13 @@
 
 @font-face {
   font-family: "Sofia Pro Black";
-  src: url("../fonts/fonts/SofiaPro-Black.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/fonts/SofiaPro-Black.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("../fonts/fonts/SofiaPro-Black.otf") format("opentype"), /* Open Type Font */
-    url("../fonts/fonts/SofiaPro-Black.svg") format("svg"), /* Legacy iOS */
-    url("../fonts/fonts/SofiaPro-Black.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("../fonts/fonts/SofiaPro-Black.woff") format("woff"), /* Modern Browsers */
-    url("../fonts/fonts/SofiaPro-Black.woff2") format("woff2"); /* Modern Browsers */
+  src: url("../fonts/SofiaPro-Black.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/SofiaPro-Black.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/SofiaPro-Black.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/SofiaPro-Black.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/SofiaPro-Black.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/SofiaPro-Black.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/SofiaPro-Black.woff2") format("woff2"); /* Modern Browsers */
   font-weight: 900;
   font-style: normal;
   font-display: swap;
