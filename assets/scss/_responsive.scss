@@ -37,6 +37,13 @@
 
     .section-container {
       max-width: 342px;
+      margin-top: 31px;
+      margin-bottom: 31px;
+    }
+
+    .column {
+      justify-content: space-between;
+      width: 100%;
     }
 
     .banner {
