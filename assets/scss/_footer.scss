@@ -1,0 +1,95 @@
+.site--footer {
+  background-color: #1A3C34;
+  padding-top: 98px;
+
+  .section-container {
+    max-width: 1164px;
+  }
+
+  hr {
+    max-width: 1164px;
+    margin: 0 auto;
+    background-color: #11342C;
+    height: 1px;
+    border: none;
+  }
+
+  section {
+
+    &.footer-links {
+      margin-bottom: 99px;
+
+      .bot-logo {
+
+        a {
+          display: inline-block;
+        }
+      }
+
+      .column-parent {
+        margin: 0 -59px;
+      }
+
+      .column-child {
+        padding: 0 59px;
+
+        h6 {
+          color: #fff;
+          font-family: 'Sofia Pro Bold', sans-serif;
+          font-size: 14px;
+          letter-spacing: 0;
+          margin-top: 2px;
+          margin-bottom: 26px;
+          line-height: 14px;
+        }
+
+        li {
+
+          &:last-of-type {
+
+            a {
+              margin-bottom: 0;
+            }
+          }
+        }
+
+        a {
+          color: #fff;
+          font-family: 'Sofia Pro ExtraLight';
+          display: inline-block;
+          font-size: 12px;
+          line-height: 12px;
+          margin-bottom: 16px;
+        }
+
+        &.social {
+
+          li {
+            margin: 0 12px;
+
+            &:first-of-type {
+              margin-left: 0;
+            }
+
+            &:last-of-type {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+    }
+
+    &.copyright {
+
+      p {
+        margin: 0;
+        font-family: 'Sofia Pro Light', sans-serif;
+        font-size: 10px;
+        color: #fff;
+        padding: 30px 0;
+        letter-spacing: 0.1px;
+        line-height: 10px;
+      }
+    }
+  }
+}

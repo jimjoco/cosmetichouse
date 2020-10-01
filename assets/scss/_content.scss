@@ -1,0 +1,176 @@
+.site--content {
+
+  section {
+
+    &.paragraph {
+      background-image: url(/assets/images/after-banner-bg.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: initial;
+      height: 559px;
+
+      .section-container {
+        max-width: 862px;
+        height: 404px;
+      }
+
+      p {
+        font-size: 20px;
+        color: #101010;
+        line-height: 35px;
+        text-align: center;
+      }
+    }
+
+    &.two-columns {
+      margin-top: -154px;
+
+      .column {
+        flex: 1;
+
+        &.services {
+          background-image: url(/assets/images/services-bg.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          height: 458px;
+        }
+
+        &.products {
+          background-image: url(/assets/images/products-bg.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          height: 458px;
+        }
+
+        a {
+          font-family: 'Sofia Pro Bold', sans-serif;
+          padding: 18px 63px 17px 64px;
+          color: #1A3C34;
+          font-size: 20px;
+          line-height: 20px;
+          display: inline-block;
+          background-color: #fff;
+          margin-bottom: 51px;
+          transition: all .3s ease-in-out;
+
+          &:hover {
+            color: #fff;
+            background-color: #1A3C34;
+          }
+        }
+      }
+    }
+
+    &.about {
+      background-image: url(/assets/images/about-bg.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 440px;
+
+      .section-inner {
+        padding: 65px 0;
+      }
+
+      h2 {
+        margin: 0;
+        color: #fff;
+        font-family: 'Avenir Black', sans-serif;
+        font-size: 45px;
+        line-height: 61px;
+        letter-spacing: -0.45px;
+        margin-bottom: 50px;
+      }
+
+      p {
+        font-family: 'Avenir Book', sans-serif;
+        font-size: 20px;
+        line-height: 35px;
+        color: #fff;
+        max-width: 946px;
+        margin: 0;
+        letter-spacing: 0.2px;
+      }
+    }
+
+    &.three-columns {
+
+      .column {
+        flex: 1 1 auto;
+        width: 33%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: initial;
+        height: 476px;
+        position: relative;
+        margin: 3px;
+
+        &:first-of-type {
+          background-image: url(/assets/images/insta-1.png);
+          margin-top: 0;
+          margin-left: 0;
+        }
+
+        &:nth-of-type(2) {
+          background-image: url(/assets/images/insta-2.png);
+          margin-top: 0;
+        }
+
+        &:nth-of-type(3) {
+          background-image: url(/assets/images/insta-3.png);
+          margin-top: 0;
+          margin-right: 0;
+        }
+
+        &:nth-of-type(4) {
+          background-image: url(/assets/images/insta-4.png);
+          margin-bottom: 0;
+          margin-left: 0;
+        }
+
+        &:nth-of-type(5) {
+          background-image: url(/assets/images/insta-5.png);
+          margin-bottom: 0;
+        }
+
+        &:last-of-type {
+          background-image: url(/assets/images/insta-6.png);
+          margin-bottom: 0;
+          margin-right: 0;
+        }
+
+        a {
+          color: #fff;
+          font-size: 20px;
+          transition: all .3s ease;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          justify-content: center;
+          align-items: center;
+          background-color: rgba(0,0,0,.7);
+          display: none;
+
+          span {
+            padding-left: 23px;
+            line-height: 35px;
+          }
+
+          i {
+            margin-top: 4px;
+          }
+        }
+
+        &:hover {
+
+          a {
+            display: flex;
+          }
+        }
+      }
+    }
+  }
+}

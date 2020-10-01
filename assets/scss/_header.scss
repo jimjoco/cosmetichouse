@@ -1,3 +1,110 @@
 .site--header {
 
+  .section-container {
+    max-width: 1164px;
+  }
+
+  .section-inner {
+    margin: 34px 0;
+  }
+
+  .top-logo {
+    margin-right: 56px;
+  }
+
+  .nav {
+
+    li {
+      margin: 0 25px;
+
+      &:first-of-type {
+        margin-left: 0;
+      }
+
+      &:last-of-type {
+        margin-right: 8px;
+      }
+
+      a {
+        color: #1A3C34;
+        text-decoration: none;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .social-media {
+
+    li {
+      padding: 0 25px;
+
+      &:first-of-type {
+        padding-left: 0;
+      }
+
+      &:last-of-type {
+        padding-right: 8px;
+      }
+
+      a {
+        color: #1A3C34;
+        display: inline-block;
+        font-size: 14px;
+      }
+    }
+
+    .fab {
+      font-size: 21px
+    }
+  }
+
+
+  .banner {
+    background-image: url(/assets/images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+
+    article {
+      margin-bottom: 197px;
+      width: 100%;
+      max-width: 586px;
+
+      h1 {
+        font-family: 'Sofia Pro Bold', sans-serif;
+        font-size: 64px;
+        color: #fff;
+        line-height: 64px;
+        margin-top: 0;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 18px;
+        letter-spacing: 0.18px;
+        color: #fff;
+        line-height: 24px;
+        margin-top: 0;
+        margin-bottom: 34px;
+      }
+
+      a {
+        font-family: 'Sofia Pro Bold', sans-serif;
+        font-size: 20px;
+        line-height: 20px;
+        color: #fff;
+        padding: 18px 46px 17px 47px;
+        text-decoration: none;
+        background-color: #1A3C34;
+        transition: all .3s ease-in-out;
+        display: inline-block;
+
+        &:hover {
+          color: #1A3C34;
+          background-color: #fff;
+        }
+      }
+    }
+  }
 }
