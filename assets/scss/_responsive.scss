@@ -1,36 +1,214 @@
-// Landscape phones, mobile devices
+// Desktop
 @media only screen and (min-width: 992px) {
+
   .hidden-lg {
     display: none;
   }
 }
 
-// Landscape phones, mobile devices
+// Landscape, mobile devices
 @media only screen and (min-width: 768px) {
+
   .hidden-md {
     display: none;
   }
 }
 
-// Landscape phones, mobile devices
+// Landscape, mobile devices
 @media only screen and (max-width: 767.98px) {
+
   .hidden-sm {
     display: none;
   }
+}
 
-  body {
-    background-color: #ccc;
+// Portrait, mobile devices
+@media only screen and (max-width: 425px) {
+
+  .hidden-xs {
+    display: none;
+  }
+}
+
+// Portrait, mobile devices
+@media only screen and (max-width: 414px) {
+
+  .site--header {
+
+    .section-container {
+      max-width: 342px;
+    }
+
+    .banner {
+      background-image: url(assets/images/mobile/banner.png);
+
+      article {
+        margin-bottom: 303px;
+
+        h1 {
+          font-size: 45px;
+          line-height: 54px;
+        }
+
+        p {
+          font-size: 16px;
+          letter-spacing: 0.16px;
+        }
+
+        a {
+          font-size: 16px;
+          line-height: 16px;
+          padding: 15px 43px 14px 44px;
+        }
+      }
+    }
   }
 
   .site--content {
-    margin-top: 45px;
 
-    .section-container {
-      background-color: transparent;
-    }
+    section {
 
-    .tabs-accordion {
-      align-items: flex-start;
+      &.paragraph {
+        background-image: url(assets/images/mobile/after-banner-bg.png);
+        background-position: center;
+        height: 406px;
+
+        p {
+          margin: 0 37px;
+          font-size: 18px;
+          letter-spacing: 0.18px;
+          line-height: 24px;
+        }
+      }
+
+      &.two-columns {
+        margin-top: 0;
+
+        .column {
+
+          &.services {
+            background-image: url(assets/images/mobile/services-bg.png);
+          }
+
+          &.products {
+            background-image: url(assets/images/mobile/products-bg.png);
+          }
+        }
+      }
+
+      &.about {
+        background-image: url(assets/images/mobile/about-bg.png);
+        height: 548px;
+
+        h2 {
+          font-size: 34px;
+          letter-spacing: -0.34px;
+        }
+
+        p {
+          font-size: 18px;
+          line-height: 24px;
+          padding: 0 37px;
+          letter-spacing: 0.18px;
+        }
+      }
+
+      &.three-columns {
+        margin-top: -24px;
+
+        .column {
+          margin: 0;
+          margin-bottom: 6px !important;
+          width: 100%;
+          height: 415px;
+
+          &:first-of-type {
+            background-image: url(assets/images/mobile/insta-1.png);
+          }
+
+          &:nth-of-type(2) {
+            background-image: url(assets/images/mobile/insta-2.png);
+          }
+
+          &:nth-of-type(3) {
+            background-image: url(assets/images/mobile/insta-3.png);
+          }
+
+          &:nth-of-type(4) {
+            background-image: url(assets/images/mobile/insta-4.png);
+          }
+
+          &:nth-of-type(5) {
+            background-image: url(assets/images/mobile/insta-5.png);
+          }
+
+          &:last-of-type {
+            background-image: url(assets/images/mobile/insta-6.png);
+            margin-bottom: 0 !important;
+          }
+        }
+      }
     }
   }
+
+  .site--footer {
+    padding-top: 0;
+
+    section {
+
+      &.footer-links {
+        margin-bottom: 0;
+
+        .section-container {
+          max-width: 342px;
+        }
+
+        .section-inner {
+          flex-direction: column;
+        }
+
+        .bot-logo {
+          text-align: center;
+          margin: 108px 0;
+
+          a {
+            line-height: 1;
+          }
+        }
+
+        .column-parent {
+          margin: 0;
+          flex-direction: column;
+        }
+
+        .column-child {
+          padding: 0;
+          margin-bottom: 48px;
+        }
+      }
+
+      &.copyright {
+
+        .section-container {
+          max-width: 342px;
+        }
+      }
+    }
+
+    hr {
+      max-width: 342px;
+    }
+  }
+}
+
+// Portrait, mobile devices
+@media only screen and (max-width: 375px) {
+
+
+}
+
+// Portrait, mobile devices
+@media only screen and (max-width: 320px) {
+
+
 }
