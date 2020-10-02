@@ -144,6 +144,10 @@
         display: none;
       }
     }
+
+    hr {
+      max-width: 1440px;
+    }
   }
 }
 
@@ -179,7 +183,24 @@
 
   .site--footer {
 
-    .section-container {
+    section {
+
+      &.footer-links {
+
+        .section-container {
+          max-width: 1920px;
+        }
+      }
+
+      &.copyright {
+
+        .section-container {
+          max-width: 1920px;
+        }
+      }
+    }
+
+    hr {
       max-width: 1920px;
     }
   }
@@ -218,7 +239,24 @@
 
   .site--footer {
 
-    .section-container {
+    section {
+
+      &.footer-links {
+
+        .section-container {
+          max-width: 1208px;
+        }
+      }
+
+      &.copyright {
+
+        .section-container {
+          max-width: 1208px;
+        }
+      }
+    }
+
+    hr {
       max-width: 1208px;
     }
   }
@@ -245,6 +283,30 @@
           height: 337px;
         }
       }
+    }
+  }
+
+  .site--footer {
+
+    section {
+
+      &.footer-links {
+
+        .section-container {
+          max-width: 952px;
+        }
+      }
+
+      &.copyright {
+
+        .section-container {
+          max-width: 952px;
+        }
+      }
+    }
+
+    hr {
+      max-width: 952px;
     }
   }
 }
